@@ -1,0 +1,120 @@
+.navbar-nav{
+    font-family: Times;
+}
+
+.navbar-brand{
+    font-family: Times;
+
+}
+
+.fuel-station-name{
+    font-family: Times;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    padding: 0 0px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+}
+
+.type{
+    text-align: center;
+
+}
+
+.submit{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+@media (max-width: 800px) {
+
+    .fuel-station-heading{
+        margin-top: 20px ;
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 20px;
+        width: 90%;
+        background-color: #EDF5E1;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .liters{
+        float: right;
+        width:35%;
+    }
+
+    .box2{
+        margin-top: 40px;
+    }
+
+    .price{
+        float: right;
+        width: 35%;
+        margin-bottom: 20px;
+    }
+
+    .fuel_type{
+        margin-top: 40px;
+
+    }
+
+    .option {
+        margin-left: 20%;
+    }
+
+    #fuel-type{
+        width: 90%;
+        height: 30px;
+        border: 1px;
+        border-radius: 8px;
+
+    }
+
+    .drop{
+        margin-top: 15px;
+        text-align: center;
+
+    }
+
+    .btn-group{
+        margin-left: 15px;
+        width:90%;
+
+    }
+
+    /*button {*/
+    /*    margin-top: 10px;*/
+    /*    border: none;*/
+    /*    background-color: #05386B;*/
+    /*    color: white;*/
+    /*    border-radius: 8px;*/
+
+    /*}*/
+
+    #submit1 {
+        margin-top:-30px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        width: 90%;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+
+
+}
