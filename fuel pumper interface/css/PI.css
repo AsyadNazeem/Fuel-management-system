@@ -1,5 +1,12 @@
 .navbar-nav{
+    float: right;
+    margin-left: 95%;
     font-family: Times;
+    border: dodgerblue;
+}
+
+.navbar-nav:hover{
+    color: darkblue;
 }
 
 .navbar-brand{
@@ -15,13 +22,14 @@
 
 .card {
     float: none;
-    width: 30%;
-    padding: 0 0px;
+    width: 430px;
     margin-left:35%;
     margin-right:20px;
     margin-top:10px;
     border-radius: 10px;
     background-color: #EDF5E1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .address {
@@ -105,6 +113,10 @@
 
 @media (max-width: 800px) {
 
+    .navbar-nav{
+        float: none;
+        margin-left: 10px;
+    }
     .clsss1{
         margin-left: 0px;
         margin-top: -10px;
@@ -117,13 +129,13 @@
     }
 
     .fuel-station-heading{
-        margin-top: 10px ;
+        margin-top: 10% ;
         margin-bottom: 0;
         text-align: center;
     }
 
     .card {
-        margin-top: 20px;
+        margin-top: 10%;
         width: 90%;
         background-color: #EDF5E1;
         border: none;
